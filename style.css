@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.block{
+    text-align: center; 
+    height: 100pt; 
+    width: 100%; 
+    background-color: rgb(255, 255, 255); 
+    margin-top: 10pt;
+}
+li{
+    padding-left: 60px;
+    margin-top: 2px;
+    list-style: none;
+    text-align: left;
+}
+li::before{
+    content: "\2A2F";
+    color: brown;
+}
